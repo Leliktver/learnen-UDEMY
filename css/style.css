@@ -6,14 +6,13 @@
 
 .container {
     position: relative;
-    width: 1140px;
-    margin: 0 auto;
+    /* min-width: min-content margin: 0 auto; */
 }
 
 .promo {
-    height: 800px;
+    min-height: min-content;
     background: url('/img/bg/main_bg.jpg')center center/cover no-repeat;
-    padding: 39px 0 62px 0;
+    padding: 40px 0 40px 0;
 }
 
 .logo .logo_img {
@@ -71,7 +70,7 @@ h2.title {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-    padding: 0 13px;
+    /* padding: 0 50px; */
     margin-top: 23px;
 }
 
@@ -131,7 +130,7 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: min-content;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
@@ -173,6 +172,8 @@ h2.title {
 
 .waiting .waiting_wrapper {
     margin-top: 45px;
+    display: flex;
+    justify-content: center;
 }
 
 .waiting .waiting_wrapper .waiting_item {
@@ -230,8 +231,8 @@ h2.title {
 }
 
 .finish {
-    min-height: 447px;
-    padding: 86px 0 79px 0;
+    min-height: min-content;
+    padding: 80px 20px 80px 20px;
     background: url('../img/bg/second_bg.jpg') center center/cover no-repeat
 }
 
@@ -252,8 +253,8 @@ h2.title {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 115px;
-    height: 115px;
+    width: 150px;
+    height: 150px;
     background-color: #b4e2ff;
     border-radius: 100%;
 }
@@ -265,4 +266,122 @@ h2.title {
     font-family: roboto;
     font-weight: 300;
     line-height: 20px;
+}
+
+.gift {
+    min-height: 550px;
+    padding: 30px 0 30px 0;
+    background: #EFEFEF;
+}
+
+.container .gift_element,
+.container .time_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 154px;
+}
+
+.container .time_element {
+    width: 342px;
+}
+
+.container .gift_text {
+    font-family: Roboto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #252525;
+    padding: 50px;
+}
+
+.container .gift_btn {
+    display: block;
+    margin: 0 auto;
+    width: 313px;
+    height: 72px;
+    left: 805px;
+    top: 72px;
+    border: 0;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.23);
+    border: 4px solid rgba(0, 0, 0, 0.23px);
+    font-family: RobotoCondensed;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    outline: none;
+}
+
+.time {
+    min-height: 550px;
+    padding: 90px 0 53px 0;
+    background: #ffffff;
+}
+
+.container .time_header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    padding-top: 30px;
+}
+
+.container .time_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    padding-top: 24px;
+}
+
+.container .time_text_small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+    padding-top: 24px;
+}
+
+footer {
+    background: #1A1A1A;
+    height: 169px;
+}
+
+footer .container {
+    min-height: 550px;
+    padding: 57px 0 69px 0;
+    margin: 0 auto;
+}
+
+.container .footer_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #888888;
 }
