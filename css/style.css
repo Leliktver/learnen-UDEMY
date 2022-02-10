@@ -225,7 +225,7 @@ h2.title {
 
 .optimization .optimization_img {
     position: absolute;
-    top: -47px;
+    top:48px;
     left: -240px;
     z-index: -1;
 }
@@ -363,25 +363,28 @@ h2.title {
     padding-top: 24px;
 }
 
-footer {
-    background: #1A1A1A;
-    height: 169px;
+footer{
+	min-height: 166px;
+	background-color: #1a1a1a;
+	padding: 61px 0 69px 0;
 }
 
-footer .container {
-    min-height: 550px;
-    padding: 57px 0 69px 0;
-    margin: 0 auto;
+.info {
+	margin: 0 auto;
+	width: 377px;
+	text-align: center;
+	color: #888888;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
 }
 
-.container .footer_text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 21px;
-    align-items: center;
-    text-align: center;
-    text-decoration-line: underline;
-    color: #888888;
+footer a{
+	color: #888888;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+	text-decoration: none;
 }
